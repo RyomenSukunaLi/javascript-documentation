@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    
+}
+aside{
+    display: inline-block;
+    position: fixed;
+    /* overflow: hidden; */
+    width: 360px;
+    height: 100vh;
+    border-right: 1px solid rgb(196, 196, 196);
+}
+main{
+    scroll-behavior: smooth;
+}
+.menu h1{
+    font-size: 2rem;
+    padding: 20px 0px 20px 10px;
+    font-weight: 300;
+    line-height: 47px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+.menu ul{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu li{
+    font-size: 1.5rem;
+    color: rgb(101, 101, 101);
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding: 15px 0px 15px 10px;
+}
+.main-container{
+    margin: 60px;
+    margin-left: 420px;
+}
+.main-container h2{
+    margin-bottom: 5px;
+}
+.intro p{
+    margin: 27px 0px;
+}
+.intro li{
+    margin: 18px;
+}
+.intro p,li{
+    font-size: 0.9rem;
+    line-height: 20px;
+    color: rgb(82, 82, 82);
+}
+.points{
+    width: 100%;
+}
+.main-container .blocks{
+    margin-bottom: 60px;
+}
+.know ul{
+    margin: 27px 0px;
+}
+.know li{
+    margin: 15px 18px;
+}
+.know p{
+    font-size: .9rem;
+}
+.code{
+    width: 100%;
+    height: auto;
+    background: rgb(237, 237, 237);
+    margin: 35px 0px;
+    padding: 10px;
+    border-radius: 9px;
+}
+.code p{
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
